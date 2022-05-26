@@ -130,3 +130,9 @@ textarea {
     font-size:3vmin;
     width:100%;
 }
+
+/* contact-sent (success-page) */
+.contact-sent h3{
+    font-family: 'Open Sans', sans-serif;
+    font-size:3vmin;
+}
