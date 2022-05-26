@@ -29,20 +29,22 @@ nav{
     height:100%;
 }
 
-.video-overlay h2{
-    color:white;
-    font-size:4vmin;
-}
+
 .video-overlay h3{
     color:white;
-    font-size:8vmin;
+    font-size:4vmin;
+    font-family: 'Open Sans', sans-serif;
 }
 
 .video-overlay h5{
-  font-size: 5vmin;
+  font-size: 4vmin;
   color:white;
   font-family: 'Open Sans', sans-serif;
    
+}
+.resume btn{
+    font-family: 'Open Sans', sans-serif;
+    font-size:2vmin;
 }
 
 body #about{
@@ -53,7 +55,7 @@ body #about{
 }
 
 body h3{
-    font-size: 5vmin;
+    font-size: 3vmin;
     font-family: 'Open Sans', sans-serif;
 }
 body p{
@@ -62,22 +64,24 @@ body p{
 }
 
 .fa-lightbulb{
-    font-size: 4vmin;
+    font-size: 3vmin;
     
 }
 .fa-desktop{
-    font-size: 4vmin;
+    font-size: 3vmin;
 }
 .fa-code{
-    font-size: 4vmin;
+    font-size: 3vmin;
 }
 
 /* section1 */
 
 .portfolio-banner{
     background-color: black;
-    padding-top: 12vmin;
-    padding-bottom: 12vmin;
+    padding-top: 15vmin;
+    padding-bottom: 15vmin;
+    padding-left: 20vmin;
+    padding-right:20vmin;
 }
 .portfolio-text{
    
@@ -85,7 +89,7 @@ body p{
 }
 .portfolio-text h4{
     color:white;
-    font-size: 5vmin;
+    font-size: 4vmin;
 }
 .card-img-top{
 background-color: black;
