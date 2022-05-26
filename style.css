@@ -1,0 +1,132 @@
+*{
+    padding:0;
+    margin:0;
+    scroll-behavior: smooth;
+    
+}
+
+nav{
+    font-family: 'Open Sans', sans-serif;
+}
+
+.video1{
+    position:relative;
+}
+
+.welcome-vid video{
+    width:100vw;
+    height:100vh;
+    background-position:absolute;
+    object-fit: cover;
+    display:block;
+}
+
+.video-overlay{
+    position:absolute;
+    top:0;
+    left:0;
+    width:100%;
+    height:100%;
+}
+
+.video-overlay h2{
+    color:white;
+    font-size:4vmin;
+}
+.video-overlay h3{
+    color:white;
+    font-size:8vmin;
+}
+
+.video-overlay h5{
+  font-size: 5vmin;
+  color:white;
+  font-family: 'Open Sans', sans-serif;
+   
+}
+
+body #about{
+    background-color: white;
+    padding-top: 20vmin;
+    padding-bottom: 20vmin;
+   
+}
+
+body h3{
+    font-size: 5vmin;
+    font-family: 'Open Sans', sans-serif;
+}
+body p{
+    font-size: 3vmin;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.fa-lightbulb{
+    font-size: 4vmin;
+    
+}
+.fa-desktop{
+    font-size: 4vmin;
+}
+.fa-code{
+    font-size: 4vmin;
+}
+
+/* section1 */
+
+.portfolio-banner{
+    background-color: black;
+    padding-top: 12vmin;
+    padding-bottom: 12vmin;
+}
+.portfolio-text{
+   
+    color:white;
+}
+.portfolio-text h4{
+    color:white;
+    font-size: 5vmin;
+}
+.card-img-top{
+background-color: black;
+
+}
+
+/* section-contact */
+.contact-background{
+    position: relative;
+}
+
+.contact-image img{
+    width:100%;
+    height:100vh;
+    background-position: absolute;
+    background-size: cover;
+   
+}
+
+.appointment-form{
+    width:100%;
+    height:100%;
+    position:absolute;
+    top:0;
+    left:0;
+    background-color: rgba(0,0,0,0.1);
+}
+
+.appointment-form input{
+    background-color: transparent;
+    color:white;
+    font-family: 'Open Sans', sans-serif;
+    font-size:3vmin;
+}
+
+
+
+textarea {
+    background-color: transparent;
+    color:white;
+    font-family: 'Open Sans', sans-serif;
+    font-size:3vmin;
+    width:100%;
+}
